@@ -1,0 +1,116 @@
+body {
+  margin:0;
+  padding:0;
+}
+.topcorner {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.topcorner img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+header {
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSUlkid75bnLhWQYqdPQnq3kqZxxDeVTmCJpcS1ebCZdhd_x0lQ);
+  height:100vh;
+  background-position:center;
+  background-size:cover;
+}
+.hero {
+  top:50%;
+  left:50%;
+  position:absolute;
+  transform:translate(-50%, -50%);
+  color:#fff;
+  text-align:center;
+  font-family:'Dosis',sans-serif;
+}
+h1 {
+  font-size:60px;
+  letter-spacing:15px;
+}
+hr{
+  width:75%;
+  margin: 30px auto;
+  border: 1.5px solid #fff;
+}
+p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+#launch {
+  font-size:40px;
+  word-spacing:20px;
+}
+p.text{
+    font-size: 1.5rem ;
+    font-family: "Lato-Regular";
+    color: #555;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc !important;
+}
+input[type="submit"]{
+    background-color: #57b846;
+    color: white;
+
+
+}
+input[type="submit"]:hover{
+    background-color: cyan !important;
+    color: black; 
+    
+}
+.twitter {
+    background-color: #1da1f2;
+    padding: 0.75rem;
+    margin: 0.25rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+}
+.facebook {
+    background-color:#3b5998;
+    padding: 0.75rem;
+    margin: 0.25rem;
+    border-radius: 50%;
+    color: #fff;
+    aria-hidden: true;
+}
+.instagram
+{
+    background-color: #e4405f;
+    padding: 0.75rem;
+    margin: 0.25rem;
+    border-radius: 50%;
+    color: #fff;
+    aria-hidden: true;
+    width: 50px;
+    height: 50px;
+}
+.youtube{
+    background-color: #cd201f;
+    padding: 0.75rem;
+    margin: 0.25rem;
+    border-radius: 50%;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
